@@ -1,4 +1,4 @@
-package com.learning.myapplication.data;
+package com.learning.aadhaardetails.data;
 
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;

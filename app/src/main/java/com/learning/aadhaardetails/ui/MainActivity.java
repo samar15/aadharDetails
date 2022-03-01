@@ -1,16 +1,8 @@
-package com.learning.myapplication.ui;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
-import androidx.room.Room;
+package com.learning.aadhaardetails.ui;
 
 import android.os.Bundle;
 
 import com.learning.myapplication.R;
-import com.learning.myapplication.data.UserDatabase;
-import com.learning.myapplication.data.daos.UserDao;
 
 public class MainActivity extends BaseActivity {
 

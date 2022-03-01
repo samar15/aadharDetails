@@ -1,4 +1,4 @@
-package com.learning.myapplication.ui;
+package com.learning.aadhaardetails.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;

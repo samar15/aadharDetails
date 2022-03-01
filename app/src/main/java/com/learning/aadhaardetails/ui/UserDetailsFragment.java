@@ -1,4 +1,4 @@
-package com.learning.myapplication.ui;
+package com.learning.aadhaardetails.ui;
 
 import android.os.Bundle;
 
@@ -11,8 +11,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.learning.aadhaardetails.data.User;
 import com.learning.myapplication.R;
-import com.learning.myapplication.data.User;
 
 
 public class UserDetailsFragment extends Fragment {

@@ -1,6 +1,4 @@
-package com.learning.myapplication.ui;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.learning.aadhaardetails.ui;
 
 import android.content.Intent;
 import android.os.Bundle;

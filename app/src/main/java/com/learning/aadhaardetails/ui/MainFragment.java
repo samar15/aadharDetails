@@ -1,4 +1,4 @@
-package com.learning.myapplication.ui;
+package com.learning.aadhaardetails.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,9 +16,9 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.learning.myapplication.R;
-import com.learning.myapplication.data.User;
-import com.learning.myapplication.data.UserDatabase;
-import com.learning.myapplication.data.daos.UserDao;
+import com.learning.aadhaardetails.data.User;
+import com.learning.aadhaardetails.data.UserDatabase;
+import com.learning.aadhaardetails.data.daos.UserDao;
 
 
 public class MainFragment extends Fragment {

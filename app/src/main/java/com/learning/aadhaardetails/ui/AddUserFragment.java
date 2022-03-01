@@ -1,4 +1,4 @@
-package com.learning.myapplication.ui;
+package com.learning.aadhaardetails.ui;
 
 import android.os.Bundle;
 
@@ -7,7 +7,6 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.room.Room;
 
-import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,10 +14,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.learning.aadhaardetails.data.User;
 import com.learning.myapplication.R;
-import com.learning.myapplication.data.User;
-import com.learning.myapplication.data.UserDatabase;
-import com.learning.myapplication.data.daos.UserDao;
+import com.learning.aadhaardetails.data.UserDatabase;
+import com.learning.aadhaardetails.data.daos.UserDao;
 
 public class AddUserFragment extends Fragment {
     protected EditText name;
