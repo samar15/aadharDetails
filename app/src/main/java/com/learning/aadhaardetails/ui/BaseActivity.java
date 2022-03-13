@@ -25,5 +25,11 @@ public class BaseActivity extends AppCompatActivity {
         fragmentTransaction.replace(containerViewId,fragment);
         fragmentTransaction.commit();
     }
+    public void remove(Fragment fragment){
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.remove(fragment);
+        fragmentTransaction.commit();
+    }
 }
 
